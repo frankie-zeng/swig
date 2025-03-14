@@ -98,3 +98,4 @@ jobs:
       with:
         root_dir: C:\Tools\swig\bin
         file_path: bin.zip
+        
