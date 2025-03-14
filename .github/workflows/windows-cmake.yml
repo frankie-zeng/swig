@@ -91,8 +91,7 @@ jobs:
       run: |
           cmake --install .
           C:\Tools\swig\bin\swig.exe -version
-    - name: Create zip
-      uses: ihiroky/archive-action@v1
+    - uses: actions/upload-artifact@v4
       with:
-        root_dir: C:/Tools/swig/bin
-        file_path: bin.zip
+        name: artifact
+        path: C:/Tools/swig/bin/ # or path/to/artifact
