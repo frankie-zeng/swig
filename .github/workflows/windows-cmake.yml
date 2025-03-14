@@ -28,8 +28,6 @@ jobs:
         include:
         - VER: '17 2022'
           os: 'windows-2022'
-        - VER: '16 2019'
-          os: 'windows-2019'
 
     env:
       BUILD_SYS: Visual Studio ${{ matrix.VER }}
@@ -98,4 +96,3 @@ jobs:
       with:
         root_dir: C:\Tools\swig\bin
         file_path: bin.zip
-        
