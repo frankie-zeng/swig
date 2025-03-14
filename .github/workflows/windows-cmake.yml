@@ -94,5 +94,5 @@ jobs:
     - name: Create zip
       uses: ihiroky/archive-action@v1
       with:
-        root_dir: C:\Tools\swig\bin
+        root_dir: C:/Tools/swig/bin
         file_path: bin.zip
